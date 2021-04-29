@@ -1,0 +1,77 @@
+
+
+# Level 1
+# Image Background and images for blocks
+#
+
+START_LEVEL
+level_name: Not again!! 
+ball_velocities:35,550
+background:image(background_images/level1.png)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/not_again_block_definitions.txt
+blocks_start_x:100
+blocks_start_y:80
+row_height:50
+num_blocks:9
+START_BLOCKS
+a---a----a
+-
+-
+a---a----a
+-
+-
+a---a----a
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Image Background and images for blocks
+#
+
+START_LEVEL
+level_name:Blue & White
+ball_velocities:10,600 -10,600
+background:image(background_images/level2.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/blue_white_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:42
+num_blocks:21
+START_BLOCKS
+-------------
+--aaaaaaa----
+--aaaaaaa----
+--aaaaaaa----
+-------------
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Images and colors changes
+
+START_LEVEL
+level_name: The final!
+ball_velocities:10,600 -10,600
+background:image(background_images/level3.png)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/final_block_definitions.txt
+blocks_start_x:70
+blocks_start_y:80
+row_height:25
+num_blocks:2
+START_BLOCKS
+----------
+-
+-
+a---b-----
+-
+-
+----------
+
+END_BLOCKS
+END_LEVEL
